@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #F1F1F1;
+}
+/*图标*/
+.wrap .logo{
+    margin:60px 0 0 50px;
+}
+.wrap .logo img{
+    width: 100px;
+}
+/*登陆界面*/
+.main_login{
+    width:400px;
+    height:575px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius:5px;
+}
+/*登陆注册标题*/
+.wrap .main_login .title{
+    padding-top:60px;
+    text-align: center;
+}
+.wrap .main_login .title .title_login{
+    font-size:20px;
+    font-weight: 700;
+    color: #EA6F5A;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border-bottom: 2px solid #EA6F5A;
+}
+
+.wrap .main_login .title .title_submit{
+    font-size:20px;
+    font-weight: 700;
+    color: #ccc;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    /*border-bottom: 2px solid #EA6F5A;*/
+}
+/*表单*/
+.wrap .main_login .form{
+    padding-top:50px;
+    width: 300px;
+    margin:0 auto;
+    position: relative;
+}
+/*用户名and密码*/
+.wrap .main_login .form .user{
+    font-size:18px;
+    padding: 4px 0px 4px 30px;
+    box-sizing:border-box;
+    background-color: #F8F8F8;
+    border:1px solid #c8c8c8;
+    border-radius:5px;
+    /*取消input选中后高亮样式*/
+    outline: none;
+}
+/*修改input元素placeholder颜色*/
+input::-webkit-input-placeholder{
+    color: #A0A0A0;
+}
+.wrap .main_login .form .little_user:before{
+    content: '';
+    display: block;
+    width: 18px;
+    height:18px;
+    background-image: url("../img/user.png");
+    background-size: 18px 18px;
+    position: absolute;
+    top:65px;
+    left:8px;
+}
+.wrap .main_login .form .password{
+    font-size:18px;
+    padding: 4px 0px 4px 30px;
+    box-sizing:border-box;
+    background-color: #F8F8F8;
+    border:1px solid #c8c8c8;
+    border-radius:5px;
+    outline: none;
+}
+.wrap .main_login .form .little_password:before{
+    content: '';
+    display: block;
+    width: 18px;
+    height:18px;
+    background-image: url("../img/password.png");
+    background-size: 18px 18px;
+    position: absolute;
+    top:115px;
+    left:8px;
+}
+/*登陆按钮*/
+.wrap .main_login .form .submit{
+    background-color: #3294D0;
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    font-size:20px;
+    color:white;
+}
+/*验证*/
+.wrap .main_login .form .yanzheng{
+    margin-top: 20px;
+}
+.wrap .main_login .form .select{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.wrap .main_login .form .select label{
+    color:#969696;
+    font-size: 14px;
+}
+.wrap .main_login .form .select a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #969696;
+    float: right;
+}
+.wrap .main_login .form .submit{
+    margin-top:20px;
+    /*display: inline-block;*/
+    height:40px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.wrap .main_login .login_des{
+    width:300px;
+    margin:0 auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #B5B5B5;
+    font-size: 12px;
+    position: relative;
+}
+.wrap .main_login .login_des:before{
+    content: '';
+    display: block;
+    border-top:1px solid #b5b5b5;
+    width: 60px;
+    position: absolute;
+    top:8px;
+    left:40px;
+}
+.wrap .main_login .login_des:after{
+    content: '';
+    display: block;
+    border-top:1px solid #b5b5b5;
+    width: 60px;
+    position: absolute;
+    top:8px;
+    right:40px;
+}
+.wrap .main_login .other_login{
+    width:300px;
+    margin:0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
